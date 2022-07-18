@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "target": "es2016",
+    "module": "commonjs",
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": false,
+    "emitDeclarationOnly": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "noImplicitAny": false,
+    "paths": {
+      "@/*": ["src"]
+    }
+  },
+  "exclude": ["dist"]
+}
